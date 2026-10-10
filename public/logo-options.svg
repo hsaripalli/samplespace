@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <g id="grid" fill="currentColor">
+      <circle cx="7" cy="7" r="2.1"/><circle cx="16" cy="7" r="2.1"/><circle cx="25" cy="7" r="3.5" fill="#f26a35"/>
+      <circle cx="7" cy="16" r="2.1"/><circle cx="16" cy="16" r="2.1"/><circle cx="25" cy="16" r="2.1"/>
+      <circle cx="7" cy="25" r="2.1"/><circle cx="16" cy="25" r="2.1"/><circle cx="25" cy="25" r="2.1"/>
+    </g>
+    <g id="curves" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+      <path d="M24 6H13a7 7 0 0 0 0 14h3"/><path d="M8 26h11a7 7 0 0 0 0-14h-3"/>
+    </g>
+  </defs>
+  <rect width="1200" height="700" fill="#0a0b0c"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#e9e8e3">
+    <text x="48" y="49" font-size="13" fill="#a1a399" letter-spacing="1">SAMPLE SPACE / LOGO STUDIES</text>
+    <rect x="32" y="80" width="552" height="586" rx="18" fill="#111314" stroke="#292a2b"/>
+    <rect x="616" y="80" width="552" height="586" rx="18" fill="#111314" stroke="#292a2b"/>
+    <text x="60" y="121" font-size="14" fill="#868981">02</text><text x="100" y="121" font-size="19">The sample</text>
+    <text x="644" y="121" font-size="14" fill="#868981">03</text><text x="684" y="121" font-size="19">Offset curves</text>
+    <use href="#grid" transform="translate(228 176) scale(5)" color="#d9d6ca"/>
+    <use href="#curves" transform="translate(812 176) scale(5)" color="#d9d6ca"/>
+    <use href="#grid" transform="translate(196 379)" color="#d9d6ca"/>
+    <text x="242" y="403" font-size="27" letter-spacing="-1">sample space.</text>
+    <use href="#curves" transform="translate(780 379)" color="#d9d6ca"/>
+    <text x="826" y="403" font-size="27" letter-spacing="-1">sample space.</text>
+    <text x="308" y="454" text-anchor="middle" font-size="15" fill="#a1a399">One selected point in a field of possibilities.</text>
+    <text x="892" y="454" text-anchor="middle" font-size="15" fill="#a1a399">Two open curves form a compact, abstract S.</text>
+    <rect x="66" y="494" width="232" height="45" rx="8" fill="#292b2d"/>
+    <rect x="314" y="494" width="232" height="45" rx="8" fill="#eae9e5"/>
+    <rect x="650" y="494" width="232" height="45" rx="8" fill="#292b2d"/>
+    <rect x="898" y="494" width="232" height="45" rx="8" fill="#eae9e5"/>
+    <use href="#grid" transform="translate(82 508) scale(.5)" color="#e2ded2"/>
+    <use href="#grid" transform="translate(330 508) scale(.5)" color="#292a2b"/>
+    <use href="#curves" transform="translate(666 508) scale(.5)" color="#e2ded2"/>
+    <use href="#curves" transform="translate(914 508) scale(.5)" color="#292a2b"/>
+    <text x="108" y="521" font-size="13">Sample Space</text><text x="356" y="521" font-size="13" fill="#292a2b">Sample Space</text>
+    <text x="692" y="521" font-size="13">Sample Space</text><text x="940" y="521" font-size="13" fill="#292a2b">Sample Space</text>
+    <text x="169" y="606" font-size="12" fill="#868981">Actual sizes</text>
+    <text x="753" y="606" font-size="12" fill="#868981">Actual sizes</text>
+    <g color="#d9d6ca">
+      <use href="#grid" transform="translate(275 588) scale(.5)"/><use href="#grid" transform="translate(330 584) scale(.75)"/><use href="#grid" transform="translate(391 580)"/>
+      <use href="#curves" transform="translate(859 588) scale(.5)"/><use href="#curves" transform="translate(914 584) scale(.75)"/><use href="#curves" transform="translate(975 580)"/>
+    </g>
+    <g font-size="10" fill="#868981" text-anchor="middle">
+      <text x="283" y="632">16px</text><text x="342" y="632">24px</text><text x="407" y="632">32px</text>
+      <text x="867" y="632">16px</text><text x="926" y="632">24px</text><text x="991" y="632">32px</text>
+    </g>
+  </g>
+</svg>

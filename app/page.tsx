@@ -71,7 +71,9 @@ function FracSection() {
 }
 
 function Mark({ className = "" }: { className?: string }) {
-  return <svg className={className} width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true"><path d="M7 8H4V26H22V23M23 22H26V4H8V7" stroke="currentColor" strokeWidth="1.3"/><circle cx="15" cy="15" r="2" fill="currentColor"/></svg>;
+  return <svg className={className} width="30" height="30" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+    {[7, 16, 25].flatMap(y => [7, 16, 25].map(x => <circle key={`${x}-${y}`} cx={x} cy={y} r={x === 25 && y === 7 ? 3.5 : 2.1} fill={x === 25 && y === 7 ? "#f26a35" : "currentColor"}/>))}
+  </svg>;
 }
 
 const discoveryWords = ["explore.", "understand.", "analyze.", "use."];
