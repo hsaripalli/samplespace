@@ -6,13 +6,20 @@ A minimal landing page for Sample Space, designed for samplespace.ai.
 
 - Next.js 16 (App Router), TypeScript, and React 19
 - shadcn/ui Button and Radix-backed DropdownMenu
-- Framer Motion for entrance and scroll transitions
+- Framer Motion for the rotating hero word
 - Tailwind CSS and custom responsive styles
-- A sparse, static SVG point field; no external fonts or image requests
+- `next/image` for the frac.fyi well-map backgrounds; Inter (via `next/font`) for the frac.fyi wordmark
 
 ## Content
 
-Products are the destinations. frac.fyi opens https://frac.fyi and opendata.fyi opens https://opendata.fyi. Both open in a new tab. The hero introduces its AI products, in two lines, with explore, understand, analyze, and use rotating on the second line, over a glowing underline beneath only the active word. Explore, understand, and analyze use a soft reveal; use enters with a staggered letter bounce. The words remain static when reduced motion is requested. The hero leads directly into Products. Product rows show each space’s name, category, and description, with each row linking to its destination.
+The page has two screens over the same dimmed frac.fyi well map (`public/products/frac-map-wide.jpg`):
+
+1. **Hero:** "AI platform that makes energy data easier to" with explore, understand, analyze, and use rotating beneath it. Words fade in; "use." drops in letter by letter with a gentle settle. A gradient underline pulses softly and glides to each word's width. Words stay static when reduced motion is requested.
+2. **frac.fyi:** wordmark, tagline, and three columns (Mission, frac.bot, Integrations) linking to frac.fyi.
+
+The sticky header has a "Try frac.fyi" link. The footer links to the privacy policy (`/privacy`) and a Contact link that reveals support@samplespace.ai on hover.
+
+The header product dropdown (frac.fyi and a dormant opendata.fyi card) is switched off with `SHOW_PRODUCT_MENU` in `app/page.tsx` until there is more than one product.
 
 ## Development
 
@@ -21,7 +28,7 @@ npm install
 npm run dev
 ```
 
-The background point field is static, with no animation or pointer interaction. Entrance transitions respect reduced-motion settings. Mobile breakpoints include a compact 320px layout.
+Animations respect reduced-motion settings. Mobile breakpoints include a compact 320px layout. To open the dev server from a phone on the same network, the LAN ranges are allowed in `allowedDevOrigins` (`next.config.ts`).
 
 ## Domain
 
