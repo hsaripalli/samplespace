@@ -15,7 +15,7 @@ A minimal landing page for Sample Space, designed for samplespace.ai.
 The page has two screens over the same dimmed frac.fyi well map (`public/products/frac-map-wide.jpg`):
 
 1. **Hero:** "AI platform that makes energy data easier to" with explore, understand, analyze, and use rotating beneath it. Words fade in; "use." drops in letter by letter with a gentle settle. A gradient underline pulses softly and glides to each word's width. Words stay static when reduced motion is requested.
-2. **frac.fyi:** wordmark, tagline, and three columns (Mission, frac.bot, Integrations) linking to frac.fyi.
+2. **frac.fyi:** wordmark, tagline, and two columns (frac.bot, Integrations) linking to frac.fyi.
 
 The sticky header has a "Try frac.fyi" link. The footer links to the privacy policy (`/privacy`) and a Contact link that reveals support@samplespace.ai on hover.
 

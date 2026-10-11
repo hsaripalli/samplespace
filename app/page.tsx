@@ -13,7 +13,6 @@ const products = [
 
 type FracColumn = { label: string; text: string; url?: string };
 const fracColumns: FracColumn[] = [
-  { label: "Mission", text: "Bring frontier intelligence to Canadian energy data." },
   { label: "frac.bot", text: "AI for oil and gas professionals. Ask complex questions, explore wells and completions, analyze production, and turn data into actionable insights.", url: "https://frac.fyi/#fx-fracbot" },
   { label: "Integrations", text: "Connect frontier models to frac.fyi's curated data and domain-specific tools.", url: "https://frac.fyi/integrations" },
 ];
@@ -55,7 +54,6 @@ function FracSection() {
   return <section id="products" className="frac-section" aria-label="frac.fyi">
     <div className="frac-backdrop" aria-hidden="true"><Image src="/products/frac-map-wide.jpg" alt="" fill sizes="100vw" quality={80}/></div>
     <div className="frac-inner">
-      <p className="frac-parent">A Sample Space product</p>
       <strong className="frac-wordmark" aria-label="frac.fyi"><em>frac</em>.fyi</strong>
       <p className="frac-tagline">AI-native oil and gas data platform to search, visualize, and analyze Western Canadian completion, wellbore, frac, and production data.</p>
       <div className="frac-columns">

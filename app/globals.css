@@ -142,13 +142,12 @@ h1 > span { font-family: Georgia, 'Times New Roman', serif; font-weight: 400; fo
 .frac-backdrop img { width: 100%; height: 100%; display: block; object-fit: cover; opacity: .62; }
 .frac-backdrop:after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, #0a0b0c 0%, #0a0b0cd9 34%, #0a0b0c59 72%, #0a0b0c4d 100%), linear-gradient(#0a0b0c 0%, transparent 18%, transparent 55%, #0a0b0cf2 100%); }
 .frac-inner { width: 100%; max-width: 1180px; margin: 0 auto; }
-.frac-parent { margin: 0 0 24px; color: #9c9e98; font: 500 13px Arial, Helvetica, sans-serif; letter-spacing: .16em; text-transform: uppercase; }
 .frac-wordmark { display: block; color: #f5f6f8; font-family: var(--font-wordmark), Arial, sans-serif; font-size: clamp(40px, 5.6vw, 84px); font-weight: 700; line-height: 1; letter-spacing: -.05em; text-shadow: 0 2px 30px #0a0b0c99; }
 .frac-wordmark em { color: #f26a35; font-style: normal; }
 .frac-tagline { max-width: 32em; margin: 22px 0 32px; color: #c3c5bf; font-size: clamp(17px, 1.7vw, 22px); line-height: 1.45; letter-spacing: -.01em; }
 .frac-primary { display: inline-block; padding: 13px 24px; border-radius: 8px; background: #f26a35; color: #0a0b0c; font-size: 16px; font-weight: 600; transition: background .2s; }
 .frac-primary:hover { background: #ff8450; }
-.frac-columns { margin-top: clamp(48px, 9vh, 92px); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 clamp(24px, 4vw, 56px); }
+.frac-columns { margin-top: clamp(48px, 9vh, 92px); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 clamp(24px, 4vw, 56px); }
 .frac-col { display: block; padding-top: 18px; border-top: 1px solid #ffffff2b; transition: border-color .25s; }
 a.frac-col:hover { border-color: #f26a35; }
 .frac-col-label { display: block; margin-bottom: 12px; color: #f2f0e8; font: 600 12px Arial, Helvetica, sans-serif; letter-spacing: .14em; text-transform: uppercase; }
